@@ -1,5 +1,5 @@
 # Turtlebot3 utilizando ROS2 Humble e Gazebo
-Este guia fornece instruções para criar e executar um contêiner Docker que executa o TurtleBot3 com o Gazebo. Se houver erros ao abrir o Gazebo (por exemplo, "Error: Can't open display"), siga as instruções adicionais fornecidas.
+Este guia fornece instruções para criar e executar um contêiner Docker que executa o TurtleBot3 com o Gazebo. 
 
 ## Pré-requisitos
 
@@ -10,7 +10,7 @@ Este guia fornece instruções para criar e executar um contêiner Docker que ex
 
 ### 1. Configurar Acesso ao Display (se necessário)
 
-Se encontrar erros ao abrir o Gazebo, execute os seguintes comandos na sua máquina:
+Se houver erros ao abrir o Gazebo (por exemplo, "Error: Can't open display"), execute os seguintes comandos na sua máquina:
 
 ```sh
 xhost +Local:*
